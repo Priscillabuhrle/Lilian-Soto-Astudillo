@@ -7,7 +7,8 @@
     background-image: url(../img/textura2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 110px;
+    height: 130px;
+    border-bottom-right-radius: 100px 100px;
 }
 
 /* Definición de la animación */
@@ -32,6 +33,11 @@
     animation: girar 1s linear;
 }
 
+.barrarosa{
+    height: 20px;
+    background-color: #660099;
+}
+
 .tit{
     font-size: 17px;
     padding-top: 10px;
@@ -43,9 +49,19 @@
     color: #434344;
     font-size: 23px;
 }
+.lineaa{
+    width: 60%;
+    border-width: 2px; 
+    margin-top: -3px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #434344;
+}
 .tit3{
     color: #eb668b;
     font-size: 20px;
+    margin-top: -12px;
+    
 }
 
 .iconoCuerpo {
